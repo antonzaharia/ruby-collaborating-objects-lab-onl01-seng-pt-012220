@@ -26,7 +26,7 @@ class Song
     artist.add_song(self)
   end
   def self.all
-    return @all
+    return @@all
   end
 
 end
